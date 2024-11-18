@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction System</title>
+    <style>
+        /* Base styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: hsl(233, 41%, 61%);
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .description {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #2980b9;
+            color: #fff;
+            border: 2px solid #2980b9;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        form {
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crop Prediction System</h1>
+    </header>
+    <div class="container">
+        <div class="description">
+            <h2>Description of the project</h2>
+            <p>The Crop Prediction System uses machine learning to recommend the best crop to plant based on soil and environmental conditions. Enter the details below to get a recommendation.</p>
+        </div>
+        <!-- Form for user input -->
+        <form method="post" action="/predict" class="form-group">
+            <div class="form-group">
+                <label for="N">Nitrogen:</label>
+                <input type="number" class="form-control" name="N" id="N" required>
+            </div>
+            <div class="form-group">
+                <label for="P">Phosphorus:</label>
+                <input type="number" class="form-control" name="P" id="P" required>
+            </div>
+            <div class="form-group">
+                <label for="K">Potassium:</label>
+                <input type="number" class="form-control" name="K" id="K" required>
+            </div>
+            <div class="form-group">
+                <label for="temperature">Temperature (°C):</label>
+                <input type="number" class="form-control" name="temperature" id="temperature" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="humidity">Humidity (%):</label>
+                <input type="number" class="form-control" name="humidity" id="humidity" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="ph">pH:</label>
+                <input type="number" class="form-control" name="ph" id="ph" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="rainfall">Rainfall (mm):</label>
+                <input type="number" class="form-control" name="rainfall" id="rainfall" step="any" required>
+            </div>
+            <button type="submit" class="btn">Predict</button>
+        </form>
+    </div>
+</body>
+</html>

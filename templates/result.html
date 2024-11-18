@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(233, 41%, 61%);
+            text-align: center;
+            padding: 50px;
+        }
+
+        .result-container {
+            background-color: #df1c36;
+            border-radius: 10px;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .note-section {
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+            color: #333;
+        }
+
+        .note-section h3 {
+            margin-bottom: 10px;
+        }
+
+        .note-section p {
+            color: #57138f; /* Purple text */
+            margin: 5px 0;
+        }
+
+        .back-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>Prediction Result</h1>
+        <p>{{ result_text }}</p>
+
+        <!-- Note Section -->
+        <div class="note-section">
+            <h3>Note:</h3>
+            <p>This prediction is generated using a machine learning model trained on soil and environmental data.</p>
+            <p>The result considers factors like Nitrogen, Phosphorus, and Potassium levels to recommend the most suitable crop.</p>
+            <p>Please consult agricultural experts or local conditions for additional insights and to validate recommendations.</p>
+        </div>
+
+        <a href="/" class="back-btn">Go Back</a>
+    </div>
+</body>
+</html>
