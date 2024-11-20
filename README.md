@@ -20,9 +20,7 @@ This tool is instrumental in modernizing agriculture, reducing resource waste, a
 
 #### Model Selection  
 Various models were evaluated on accuracy, precision, recall, and F1-score to identify the most effective approach:  
-- **Naive Bayes**: Achieved the highest accuracy of 99.55%.  
-- **Random Forest**: Second-highest accuracy at 99.32%.  
-- **Gradient Boosting**: Delivered an accuracy of 98.18%.  
+- **Naive Bayes**: Achieved the highest accuracy of 99.55%.  .    
 - **Decision Trees**: Achieved 98.86% accuracy.  
 - **K-Nearest Neighbors (KNN)**: 97.05% accuracy.  
 - **Support Vector Machines (SVM)**: 96.14% accuracy.  
