@@ -1,6 +1,8 @@
 
 ### SmartHarvest---The-Crop-Predictor  
-This project leverages advanced machine learning (ML) techniques to optimize crop yield predictions, helping farmers manage limited resources effectively. By analyzing soil nutrients, environmental factors, and weather conditions, the system aids in agricultural decision-making.  
+This project leverages advanced machine learning (ML) techniques to optimize crop yield predictions, helping farmers manage limited resources effectively. By analyzing soil nutrients, environmental factors, and weather conditions, the system aids in agricultural decision-making. 
+
+You can also explore the implementation and functionality of the project at https://smartharvest-the-crop-predictor.onrender.com/
 
 ---
 
