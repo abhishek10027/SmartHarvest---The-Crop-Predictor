@@ -31,9 +31,25 @@ Various models were evaluated on accuracy, precision, recall, and F1-score to id
 ---
 
 #### Steps for Prediction  
-1. **Input Data**: Enter environmental and soil parameters.  
-2. **Run Prediction**: Select a preferred model for crop prediction.  
-3. **View Results**: Receive a detailed output with crop recommendations and analysis.  
+
+1. **Open the application** in a web browser using https://smartharvest-the-crop-predictor.onrender.com/
+
+![image](https://github.com/user-attachments/assets/c12d47b6-8523-417b-ae95-165b3dca5f53)
+
+2. **Fill out the form** with relevant information such as soil nutrients, weather conditions, and rainfall. To predict the most suitable crop for a given set of conditions, the application requires the following significant features:  
+
+   - Nitrogen (N) content in soil  
+   - Phosphorous (P) content in soil  
+   - Potassium (K) content in soil  
+   - Temperature (°C)  
+   - Humidity (%)  
+   - pH value of the soil  
+   - Rainfall (mm)  
+
+3. **Click the "Submit" button** to generate the prediction result.  
+
+4. **View the prediction result** to see the recommended crop based on the input conditions.  
+![image](https://github.com/user-attachments/assets/aa564512-fa0f-465a-8291-3292881ae601)
 
 ---
 
