@@ -49,6 +49,7 @@ Various models were evaluated on accuracy, precision, recall, and F1-score to id
 3. **Click the "Submit" button** to generate the prediction result.  
 
 4. **View the prediction result** to see the recommended crop based on the input conditions.  
+
 ![image](https://github.com/user-attachments/assets/aa564512-fa0f-465a-8291-3292881ae601)
 
 ---
