@@ -3,7 +3,7 @@
   publish = "templates"
 
 [build.environment]
-  PYTHON_VERSION = "3.10"
+  PYTHON_VERSION = "3.10.12"
 
 [[redirects]]
   from = "/*"
